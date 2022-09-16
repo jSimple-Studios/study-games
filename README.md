@@ -1,4 +1,4 @@
 # study-game
 Proposed Name: Krogimit
 
-Platform: WebGL (borderless)
+Platform: Web
