@@ -1,5 +1,5 @@
 # study-game
-Proposed Name: Krogmit (please change this)
+Proposed Name: Generic Study Game (or something like this)
 
 Platform: Web
 
