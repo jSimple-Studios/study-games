@@ -1,7 +1,4 @@
-# study-game
-Proposed Name: Generic Study Game (or something like this)
-
-Platform: Web
+# study-games
 
 Modes
 - [Quizlet] Learn
