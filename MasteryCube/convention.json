@@ -1,0 +1,25 @@
+{
+    "set": [
+        {
+            "question": "{QUESTION}",
+            "responses": [
+                {
+                    "text": "{A}",
+                    "accept": true
+                },
+                {
+                    "text": "{B}",
+                    "accept": true
+                },
+                {
+                    "text": "{C}",
+                    "accept": true
+                },
+                {
+                    "text": "{D}",
+                    "accept": true
+                }
+            ]
+        },
+    ]
+}
