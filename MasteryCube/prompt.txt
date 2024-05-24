@@ -1,3 +1,4 @@
+Convert my multiple-choice questions into JSON using the following convention:
 {
     "set": [
         {
@@ -23,3 +24,7 @@
         },
     ]
 }
+where {QUESTION} is replaced with the name of the question, {A} {B} {C} {D} are replaced with the answers to the question, and {tf} is a boolean that should be true if the answer is marked as correct with a greater than sign > in front of it and false if the greater than sign is not present. When placing the answers into JSON, remove the greater than sign.
+
+Here are the questions:
+(paste set here)

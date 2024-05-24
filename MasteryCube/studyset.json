@@ -629,6 +629,426 @@
                     "accept": false
                 }
             ]
+        },
+        {
+            "question": "How long ago does Luis Alvarez's hypothesis suggest the asteroid struck the Earth?",
+            "responses": [
+                {
+                    "text": "100 million years ago",
+                    "accept": false
+                },
+                {
+                    "text": "65 million years ago",
+                    "accept": true
+                },
+                {
+                    "text": "200 million years ago",
+                    "accept": false
+                },
+                {
+                    "text": "50 million years ago",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What did Luis Alvarez help design during World War II?",
+            "responses": [
+                {
+                    "text": "Instruments for weather forecasting",
+                    "accept": false
+                },
+                {
+                    "text": "Instruments for medical research",
+                    "accept": false
+                },
+                {
+                    "text": "Instruments to detect nuclear reactors in Germany",
+                    "accept": true
+                },
+                {
+                    "text": "Instruments for underwater navigation",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What field did Luis Alvarez specialize in?",
+            "responses": [
+                {
+                    "text": "Chemistry",
+                    "accept": false
+                },
+                {
+                    "text": "Physics",
+                    "accept": true
+                },
+                {
+                    "text": "Biology",
+                    "accept": false
+                },
+                {
+                    "text": "Mathematics",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What was one of Luis Alvarez's contributions to the Manhattan Project?",
+            "responses": [
+                {
+                    "text": "Designing atomic bombs",
+                    "accept": false
+                },
+                {
+                    "text": "Operating Chicago Pile-2",
+                    "accept": true
+                },
+                {
+                    "text": "Developing radar technology",
+                    "accept": false
+                },
+                {
+                    "text": "Enriching uranium",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What prestigious award did Luis Alvarez win in 1968?",
+            "responses": [
+                {
+                    "text": "Pulitzer Prize",
+                    "accept": false
+                },
+                {
+                    "text": "Nobel Prize in Physics",
+                    "accept": true
+                },
+                {
+                    "text": "Fields Medal",
+                    "accept": false
+                },
+                {
+                    "text": "Turing Award",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Which major World War II project did Luis Alvarez join in 1943?",
+            "responses": [
+                {
+                    "text": "Apollo Program",
+                    "accept": false
+                },
+                {
+                    "text": "Oppenheimer Project",
+                    "accept": false
+                },
+                {
+                    "text": "Manhattan Project",
+                    "accept": true
+                },
+                {
+                    "text": "Human Genome Project",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "At which institution did Luis Alvarez work as part of the Manhattan Project?",
+            "responses": [
+                {
+                    "text": "Los Alamos National Laboratory",
+                    "accept": false
+                },
+                {
+                    "text": "University of Chicago",
+                    "accept": true
+                },
+                {
+                    "text": "Oak Ridge National Laboratory",
+                    "accept": false
+                },
+                {
+                    "text": "MIT",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What significant hypothesis is Luis Alvarez known for?",
+            "responses": [
+                {
+                    "text": "The formation of black holes",
+                    "accept": false
+                },
+                {
+                    "text": "The origin of the universe",
+                    "accept": false
+                },
+                {
+                    "text": "The extinction of dinosaurs due to an asteroid strike",
+                    "accept": true
+                },
+                {
+                    "text": "The existence of dark matter",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Where was the astronaut support team led by Dr. Chang-Díaz based from October 1984 to August 1985?",
+            "responses": [
+                {
+                    "text": "Johnson Space Center, Texas",
+                    "accept": false
+                },
+                {
+                    "text": "Marshall Space Flight Center, Alabama",
+                    "accept": false
+                },
+                {
+                    "text": "Kennedy Space Center, Florida",
+                    "accept": true
+                },
+                {
+                    "text": "Ames Research Center, California",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What was Dr. Chang-Díaz instrumental in implementing?",
+            "responses": [
+                {
+                    "text": "New astronaut training programs",
+                    "accept": false
+                },
+                {
+                    "text": "Advanced spacecraft designs",
+                    "accept": false
+                },
+                {
+                    "text": "Closer ties between the astronaut corps and the scientific community",
+                    "accept": true
+                },
+                {
+                    "text": "New flight simulation technologies",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What were Dr. Chang-Díaz's duties as the leader of the astronaut support team?",
+            "responses": [
+                {
+                    "text": "Flight crew support during the launch countdown",
+                    "accept": true
+                },
+                {
+                    "text": "Mission control operations during space missions",
+                    "accept": false
+                },
+                {
+                    "text": "Payload development for space missions",
+                    "accept": false
+                },
+                {
+                    "text": "Rover operations on the Moon",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Which program did Dr. Chang-Díaz start in January 1987?",
+            "responses": [
+                {
+                    "text": "Astronaut Science Colloquium Program",
+                    "accept": true
+                },
+                {
+                    "text": "Kennedy Space Center Program",
+                    "accept": false
+                },
+                {
+                    "text": "Astronaut Training Program",
+                    "accept": false
+                },
+                {
+                    "text": "Space Exploration Program",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What is Adriana Ocampo's area of research?",
+            "responses": [
+                {
+                    "text": "Astrophysics",
+                    "accept": false
+                },
+                {
+                    "text": "Planetary geology",
+                    "accept": true
+                },
+                {
+                    "text": "Marine biology",
+                    "accept": false
+                },
+                {
+                    "text": "Quantum mechanics",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "How did Adriana Ocampo relate the sinkholes in the Yucatan peninsula to the Chicxulub impact?",
+            "responses": [
+                {
+                    "text": "They were caused by volcanic activity",
+                    "accept": false
+                },
+                {
+                    "text": "They formed due to erosion from a nearby river",
+                    "accept": false
+                },
+                {
+                    "text": "They provided evidence of a buried impact crater",
+                    "accept": true
+                },
+                {
+                    "text": "They were remnants of ancient glaciers",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What term did Adriana Ocampo use to describe the ring of sinkholes in the Yucatan peninsula?",
+            "responses": [
+                {
+                    "text": "Crevasses",
+                    "accept": false
+                },
+                {
+                    "text": "Abysses",
+                    "accept": false
+                },
+                {
+                    "text": "Cenotes",
+                    "accept": true
+                },
+                {
+                    "text": "Fissures",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What geological feature did Adriana Ocampo link to a buried impact crater?",
+            "responses": [
+                {
+                    "text": "Volcanic mountains",
+                    "accept": false
+                },
+                {
+                    "text": "Sinkholes",
+                    "accept": true
+                },
+                {
+                    "text": "Glacial valleys",
+                    "accept": false
+                },
+                {
+                    "text": "Coral reefs",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Where were the sinkholes, or 'cenotes,' discovered by Adriana Ocampo located?",
+            "responses": [
+                {
+                    "text": "Amazon Rainforest",
+                    "accept": false
+                },
+                {
+                    "text": "Sahara Desert",
+                    "accept": false
+                },
+                {
+                    "text": "Yucatan Peninsula",
+                    "accept": true
+                },
+                {
+                    "text": "Himalayan Mountains",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What geological feature did Adriana Ocampo identify in the Yucatan peninsula?",
+            "responses": [
+                {
+                    "text": "Volcanic vents",
+                    "accept": false
+                },
+                {
+                    "text": "Sinkholes",
+                    "accept": true
+                },
+                {
+                    "text": "Mountain ranges",
+                    "accept": false
+                },
+                {
+                    "text": "Glaciers",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Which planets did Adriana Ocampo help to investigate?",
+            "responses": [
+                {
+                    "text": "Mars and Venus",
+                    "accept": false
+                },
+                {
+                    "text": "Neptune and Uranus",
+                    "accept": false
+                },
+                {
+                    "text": "Jupiter and Pluto",
+                    "accept": true
+                },
+                {
+                    "text": "Mercury and Mars",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What does Adriana Ocampo specialize in?",
+            "responses": [
+                {
+                    "text": "Asteroids and their impact craters",
+                    "accept": true
+                },
+                {
+                    "text": "Comets in space",
+                    "accept": false
+                },
+                {
+                    "text": "Planetary orbits",
+                    "accept": false
+                },
+                {
+                    "text": "Patterns in the asteroid belt",
+                    "accept": false
+                }
+            ]
         }
     ]
 }
