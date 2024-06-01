@@ -8,9 +8,13 @@ public class GameManager : NetworkBehaviour
 {
     public TextAsset questionsJson;
     public Question[] set;
+    public int numQs; // this is a temporary
 
     void Start() {
         // generate cube
+            // div by 6 then sqrt, rounding to nearest whole number
+            int qsPerCol = numQs/6;
+            
     }
 
     void Update() {
