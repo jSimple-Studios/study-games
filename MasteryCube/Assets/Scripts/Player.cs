@@ -17,8 +17,10 @@ public class Player : NetworkBehaviour
     }
 
     [Command(requiresAuthority = false)] public void CmdRegisterNew(Player player, string username) {
+        // all refs to gm here are on server only, doesnt propagate to clients
         player.username = username;
         gm.players.Add(player);
-        gm.AddToList(username);
+        PlayerListItem newListing = Instantiate((PlayerListItem)Resources.Load("Prefabs/PlayerListItem"), gm.playerList.transform);
+        newListing.playerName.text = username;
     }
 }

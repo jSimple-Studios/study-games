@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour {
     public TMP_InputField playerName;
     [SerializeField] NetMan nm;
     public List<Player> players = new();
-    [SerializeField] GameObject playerList;
+    public GameObject playerList;
 
     int numQs;
 
@@ -94,11 +94,6 @@ public class GameManager : MonoBehaviour {
             clientUI.SetActive(true);
             titleUI.SetActive(false);
         }
-    }
-
-    [Server] public void AddToList(string username) {
-        PlayerListItem newListing = Instantiate((PlayerListItem)Resources.Load("Prefabs/PlayerListItem"), playerList.transform);
-        newListing.playerName.text = username;
     }
 }
 
