@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Mirror;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Player : NetworkBehaviour
 {
@@ -19,8 +20,9 @@ public class Player : NetworkBehaviour
 
     void Update() {
         if (runningGame) {
-            // update timer
+            // update timer & score
             gm.time = time;
+            gm.infotext.text = "Score: " + score.ToString();
             
             // play pending anims
         }
@@ -37,7 +39,7 @@ public class Player : NetworkBehaviour
 
     [ClientRpc] public void StartGame() {
         runningGame = true;
-        StartCoroutine(EStartGame());
+        // StartCoroutine(EStartGame());
     }
 
     IEnumerator EStartGame() {

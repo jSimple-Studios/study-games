@@ -5,6 +5,7 @@ using Mirror;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
@@ -91,12 +92,7 @@ public class GameManager : MonoBehaviour {
         if (hostingOnly && runningGame) {
             curTime += Time.deltaTime;
             time = TimeSpan.FromSeconds(curTime);
-            foreach (var player in players) {
-                player.time = time;
-            }
             svrinfotext.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
-        } else {
-            infotext.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
         }
     }
 
