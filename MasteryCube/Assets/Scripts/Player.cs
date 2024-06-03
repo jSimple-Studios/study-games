@@ -22,6 +22,6 @@ public class Player : NetworkBehaviour
         gm.players.Add(player);
         var newListing = (GameObject)Resources.Load("Prefabs/PlayerListItem");
         newListing.GetComponent<PlayerListItem>().playerName.text = username;
-        NetworkServer.Spawn(newListing);
+        Instantiate(newListing);
     }
 }
