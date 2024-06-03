@@ -9,10 +9,15 @@ public class Player : NetworkBehaviour
     GameManager gm;
     void Start() {
         gm = FindObjectOfType<GameManager>();
-        gm.CmdRegisterNew(this, gm.playerName.text);
+        CmdRegisterNew(this, gm.playerName.text);
     }
 
     void Update() {
 
+    }
+
+    [Command(requiresAuthority = false)] public void CmdRegisterNew(Player player, string username) {
+        player.username = username;
+        gm.players.Add(player);
     }
 }

@@ -7,7 +7,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : NetworkBehaviour {
+public class GameManager : MonoBehaviour {
     public bool hostingOnly;
     public TextAsset questionsJson;
     public Transform theCube;
@@ -20,7 +20,7 @@ public class GameManager : NetworkBehaviour {
     public TMP_InputField serverIP;
     public TMP_InputField playerName;
     [SerializeField] NetMan nm;
-    [SyncVar] public List<Player> players = new();
+    public List<Player> players = new();
     int numQs;
 
     void Start() {
@@ -87,11 +87,6 @@ public class GameManager : NetworkBehaviour {
     public void JoinServer() {
         nm.networkAddress = serverIP.text;
         nm.StartClient();
-    }
-
-    [Command(requiresAuthority = false)] public void CmdRegisterNew(Player player, string username) {
-        player.username = username;
-        players.Add(player);
     }
 }
 
