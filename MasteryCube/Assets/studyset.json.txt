@@ -1,0 +1,1054 @@
+{
+    "set": [
+        {
+            "question": "What milestone did Ellen Ochoa achieve?",
+            "responses": [
+                {
+                    "text": "First Hispanic woman in space",
+                    "accept": true
+                },
+                {
+                    "text": "First Hispanic woman to go to the moon",
+                    "accept": false
+                },
+                {
+                    "text": "First Hispanic person to be in NASA",
+                    "accept": false
+                },
+                {
+                    "text": "First Hispanic person to work in the Johnson Space Center",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Which space agency did Ellen Ochoa have a career in?",
+            "responses": [
+                {
+                    "text": "European Space Agency (ESA)",
+                    "accept": false
+                },
+                {
+                    "text": "Russian Federal Space Agency (Roscosmos)",
+                    "accept": false
+                },
+                {
+                    "text": "China National Space Administration (CNSA)",
+                    "accept": false
+                },
+                {
+                    "text": "National Aeronautics and Space Administration (NASA)",
+                    "accept": true
+                }
+            ]
+        },
+        {
+            "question": "Ellen Ochoa became the director of what?",
+            "responses": [
+                {
+                    "text": "NASA",
+                    "accept": false
+                },
+                {
+                    "text": "Johnson Space Center",
+                    "accept": true
+                },
+                {
+                    "text": "Florida Space Center",
+                    "accept": false
+                },
+                {
+                    "text": "Houston, Texas",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What was Ellen Ochoa's role during her time as a crew member on the space shuttle Discovery in 1993?",
+            "responses": [
+                {
+                    "text": "Pilot",
+                    "accept": false
+                },
+                {
+                    "text": "Commander",
+                    "accept": false
+                },
+                {
+                    "text": "Mission specialist",
+                    "accept": false
+                },
+                {
+                    "text": "Payload specialist",
+                    "accept": true
+                }
+            ]
+        },
+        {
+            "question": "Ellen Ochoa was the mission specialist on which Space Shuttle?",
+            "responses": [
+                {
+                    "text": "Columbia",
+                    "accept": false
+                },
+                {
+                    "text": "Challenger",
+                    "accept": false
+                },
+                {
+                    "text": "Discovery",
+                    "accept": true
+                },
+                {
+                    "text": "Atlantis",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "How did Ellen Ochoa contribute to space exploration?",
+            "responses": [
+                {
+                    "text": "She conducted the first spacewalk by a Hispanic woman.",
+                    "accept": false
+                },
+                {
+                    "text": "She led the first all-female space mission.",
+                    "accept": false
+                },
+                {
+                    "text": "She performed the first docking to the International Space Station.",
+                    "accept": true
+                },
+                {
+                    "text": "She discovered a new comet.",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What technology did Ellen Ochoa help develop?",
+            "responses": [
+                {
+                    "text": "Fiber optics",
+                    "accept": false
+                },
+                {
+                    "text": "Optical systems",
+                    "accept": true
+                },
+                {
+                    "text": "Low Earth orbit satellites",
+                    "accept": false
+                },
+                {
+                    "text": "Moon landers",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What did Ellen Ochoa get patents on?",
+            "responses": [
+                {
+                    "text": "Software algorithms",
+                    "accept": false
+                },
+                {
+                    "text": "Biomedical devices",
+                    "accept": false
+                },
+                {
+                    "text": "Optical systems",
+                    "accept": true
+                },
+                {
+                    "text": "Nanotechnology materials",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "In what year did Ellen Ochoa and her crew dock to the ISS?",
+            "responses": [
+                {
+                    "text": "1998",
+                    "accept": false
+                },
+                {
+                    "text": "1997",
+                    "accept": false
+                },
+                {
+                    "text": "1980",
+                    "accept": false
+                },
+                {
+                    "text": "1999",
+                    "accept": true
+                }
+            ]
+        },
+        {
+            "question": "What did Ellen Ochoa major in?",
+            "responses": [
+                {
+                    "text": "Electrical Engineering",
+                    "accept": true
+                },
+                {
+                    "text": "Systems Engineering",
+                    "accept": false
+                },
+                {
+                    "text": "Computer Science",
+                    "accept": false
+                },
+                {
+                    "text": "Optics Engineering",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What is Ellen Ochoa's academic background?",
+            "responses": [
+                {
+                    "text": "Doctorate in Physics",
+                    "accept": false
+                },
+                {
+                    "text": "Doctorate in Electrical Engineering",
+                    "accept": true
+                },
+                {
+                    "text": "Master's in Aerospace Engineering",
+                    "accept": false
+                },
+                {
+                    "text": "Bachelor's in Computer Science",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "When was Ellen Ochoa the mission specialist on Discovery?",
+            "responses": [
+                {
+                    "text": "1992",
+                    "accept": false
+                },
+                {
+                    "text": "1997",
+                    "accept": false
+                },
+                {
+                    "text": "1999",
+                    "accept": false
+                },
+                {
+                    "text": "1993",
+                    "accept": true
+                }
+            ]
+        },
+        {
+            "question": "What was Ellen Ochoa’s highest level of education?",
+            "responses": [
+                {
+                    "text": "Associate’s degree",
+                    "accept": false
+                },
+                {
+                    "text": "Bachelor’s degree",
+                    "accept": false
+                },
+                {
+                    "text": "Master’s degree",
+                    "accept": false
+                },
+                {
+                    "text": "Doctorate",
+                    "accept": true
+                }
+            ]
+        },
+        {
+            "question": "What did Ellen Ochoa and her crew dock to in May 1999?",
+            "responses": [
+                {
+                    "text": "International Space Station (ISS)",
+                    "accept": true
+                },
+                {
+                    "text": "SpaceX Dragon",
+                    "accept": false
+                },
+                {
+                    "text": "Johnson Space Center",
+                    "accept": false
+                },
+                {
+                    "text": "Florida Space Center",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What historic event did Ellen Ochoa participate in during May 1999?",
+            "responses": [
+                {
+                    "text": "Landing on the Moon",
+                    "accept": false
+                },
+                {
+                    "text": "First docking to the International Space Station",
+                    "accept": true
+                },
+                {
+                    "text": "Launch of the Hubble Space Telescope",
+                    "accept": false
+                },
+                {
+                    "text": "Exploration of Jupiter's moons",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What did Ellen Ochoa’s optical systems detect?",
+            "responses": [
+                {
+                    "text": "Imperfections in a repeating pattern",
+                    "accept": true
+                },
+                {
+                    "text": "Recognition of objects",
+                    "accept": true
+                },
+                {
+                    "text": "Location of spacecraft in orbit",
+                    "accept": false
+                },
+                {
+                    "text": "Exact position of a lunar lander",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What was Jaime Escalante's belief about students' ability to succeed?",
+            "responses": [
+                {
+                    "text": "Only gifted students could succeed",
+                    "accept": false
+                },
+                {
+                    "text": "Students from wealthy backgrounds could succeed",
+                    "accept": false
+                },
+                {
+                    "text": "All students could succeed in demanding classes",
+                    "accept": true
+                },
+                {
+                    "text": "Only students with prior knowledge could succeed",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What did Jaime Escalante push for in education?",
+            "responses": [
+                {
+                    "text": "More extracurricular activities",
+                    "accept": false
+                },
+                {
+                    "text": "Longer school days",
+                    "accept": false
+                },
+                {
+                    "text": "Higher standards and accountability",
+                    "accept": true
+                },
+                {
+                    "text": "More holidays",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Who did Jaime Escalante believe should be held accountable for learning in school?",
+            "responses": [
+                {
+                    "text": "Only students",
+                    "accept": false
+                },
+                {
+                    "text": "Both students and educators",
+                    "accept": true
+                },
+                {
+                    "text": "Parents",
+                    "accept": false
+                },
+                {
+                    "text": "School administrators",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What impact did Jaime Escalante have on people's beliefs?",
+            "responses": [
+                {
+                    "text": "He made them believe all students needed tutoring",
+                    "accept": false
+                },
+                {
+                    "text": "He changed beliefs about which students could succeed",
+                    "accept": true
+                },
+                {
+                    "text": "He convinced them that only exams matter",
+                    "accept": false
+                },
+                {
+                    "text": "He convinced students that grades are unimportant",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Which of the following was a key aspect of Jaime Escalante's approach?",
+            "responses": [
+                {
+                    "text": "Lowering educational standards",
+                    "accept": false
+                },
+                {
+                    "text": "Reducing homework",
+                    "accept": false
+                },
+                {
+                    "text": "Eliminating exams",
+                    "accept": false
+                },
+                {
+                    "text": "Pushing for higher standards",
+                    "accept": true
+                }
+            ]
+        },
+        {
+            "question": "How did Jaime Escalante view demanding classes?",
+            "responses": [
+                {
+                    "text": "They are much too difficult for most students",
+                    "accept": false
+                },
+                {
+                    "text": "They should be removed and stop existing",
+                    "accept": false
+                },
+                {
+                    "text": "All students are capable of doing well",
+                    "accept": true
+                },
+                {
+                    "text": "They should not be required but still exist",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What was Jaime Escalante's view on the relationship between a student's background and their ability to succeed in demanding classes?",
+            "responses": [
+                {
+                    "text": "Background does not matter",
+                    "accept": true
+                },
+                {
+                    "text": "Background is crucial",
+                    "accept": false
+                },
+                {
+                    "text": "Only privileged students can succeed",
+                    "accept": false
+                },
+                {
+                    "text": "Only underprivileged students can succeed",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What role did Jaime Escalante play in education?",
+            "responses": [
+                {
+                    "text": "Follower",
+                    "accept": false
+                },
+                {
+                    "text": "Empowering leader",
+                    "accept": true
+                },
+                {
+                    "text": "Harsh critic",
+                    "accept": false
+                },
+                {
+                    "text": "Administrator",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What kind of leader was Jaime Escalante?",
+            "responses": [
+                {
+                    "text": "Passive",
+                    "accept": false
+                },
+                {
+                    "text": "Strict",
+                    "accept": false
+                },
+                {
+                    "text": "Empowering",
+                    "accept": true
+                },
+                {
+                    "text": "Hateful",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What was Jaime Escalante’s teaching style?",
+            "responses": [
+                {
+                    "text": "Strict and rigid",
+                    "accept": false
+                },
+                {
+                    "text": "Entertaining and engaging",
+                    "accept": true
+                },
+                {
+                    "text": "Lenient and easy-going",
+                    "accept": false
+                },
+                {
+                    "text": "Unstructured and chaotic",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "How did Jaime Escalante's teaching style impact his students?",
+            "responses": [
+                {
+                    "text": "It made learning boring and unengaging.",
+                    "accept": false
+                },
+                {
+                    "text": "It discouraged students from pursuing higher education.",
+                    "accept": false
+                },
+                {
+                    "text": "It inspired students to excel and overcome challenges.",
+                    "accept": true
+                },
+                {
+                    "text": "It reinforced stereotypes about student abilities.",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What profession was Jaime Escalante?",
+            "responses": [
+                {
+                    "text": "Teacher",
+                    "accept": true
+                },
+                {
+                    "text": "Physicist",
+                    "accept": false
+                },
+                {
+                    "text": "Astronaut",
+                    "accept": false
+                },
+                {
+                    "text": "Chemist",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "With whom did Luis Alvarez develop the hypothesis about the dinosaurs' extinction?",
+            "responses": [
+                {
+                    "text": "His colleague",
+                    "accept": false
+                },
+                {
+                    "text": "His brother",
+                    "accept": false
+                },
+                {
+                    "text": "His friend",
+                    "accept": false
+                },
+                {
+                    "text": "His son",
+                    "accept": true
+                }
+            ]
+        },
+        {
+            "question": "What event does Luis Alvarez's hypothesis suggest caused the extinction of the dinosaurs?",
+            "responses": [
+                {
+                    "text": "A massive volcanic eruption",
+                    "accept": false
+                },
+                {
+                    "text": "Climate change",
+                    "accept": false
+                },
+                {
+                    "text": "An asteroid strike",
+                    "accept": true
+                },
+                {
+                    "text": "A supernova",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "How long ago does Luis Alvarez's hypothesis suggest the asteroid struck the Earth?",
+            "responses": [
+                {
+                    "text": "100 million years ago",
+                    "accept": false
+                },
+                {
+                    "text": "65 million years ago",
+                    "accept": true
+                },
+                {
+                    "text": "200 million years ago",
+                    "accept": false
+                },
+                {
+                    "text": "50 million years ago",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What did Luis Alvarez help design during World War II?",
+            "responses": [
+                {
+                    "text": "Instruments for weather forecasting",
+                    "accept": false
+                },
+                {
+                    "text": "Instruments for medical research",
+                    "accept": false
+                },
+                {
+                    "text": "Instruments to detect nuclear reactors in Germany",
+                    "accept": true
+                },
+                {
+                    "text": "Instruments for underwater navigation",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What field did Luis Alvarez specialize in?",
+            "responses": [
+                {
+                    "text": "Chemistry",
+                    "accept": false
+                },
+                {
+                    "text": "Physics",
+                    "accept": true
+                },
+                {
+                    "text": "Biology",
+                    "accept": false
+                },
+                {
+                    "text": "Mathematics",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What was one of Luis Alvarez's contributions to the Manhattan Project?",
+            "responses": [
+                {
+                    "text": "Designing atomic bombs",
+                    "accept": false
+                },
+                {
+                    "text": "Operating Chicago Pile-2",
+                    "accept": true
+                },
+                {
+                    "text": "Developing radar technology",
+                    "accept": false
+                },
+                {
+                    "text": "Enriching uranium",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What prestigious award did Luis Alvarez win in 1968?",
+            "responses": [
+                {
+                    "text": "Pulitzer Prize",
+                    "accept": false
+                },
+                {
+                    "text": "Nobel Prize in Physics",
+                    "accept": true
+                },
+                {
+                    "text": "Fields Medal",
+                    "accept": false
+                },
+                {
+                    "text": "Turing Award",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Which major World War II project did Luis Alvarez join in 1943?",
+            "responses": [
+                {
+                    "text": "Apollo Program",
+                    "accept": false
+                },
+                {
+                    "text": "Oppenheimer Project",
+                    "accept": false
+                },
+                {
+                    "text": "Manhattan Project",
+                    "accept": true
+                },
+                {
+                    "text": "Human Genome Project",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "At which institution did Luis Alvarez work as part of the Manhattan Project?",
+            "responses": [
+                {
+                    "text": "Los Alamos National Laboratory",
+                    "accept": false
+                },
+                {
+                    "text": "University of Chicago",
+                    "accept": true
+                },
+                {
+                    "text": "Oak Ridge National Laboratory",
+                    "accept": false
+                },
+                {
+                    "text": "MIT",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What significant hypothesis is Luis Alvarez known for?",
+            "responses": [
+                {
+                    "text": "The formation of black holes",
+                    "accept": false
+                },
+                {
+                    "text": "The origin of the universe",
+                    "accept": false
+                },
+                {
+                    "text": "The extinction of dinosaurs due to an asteroid strike",
+                    "accept": true
+                },
+                {
+                    "text": "The existence of dark matter",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Where was the astronaut support team led by Dr. Chang-Díaz based from October 1984 to August 1985?",
+            "responses": [
+                {
+                    "text": "Johnson Space Center, Texas",
+                    "accept": false
+                },
+                {
+                    "text": "Marshall Space Flight Center, Alabama",
+                    "accept": false
+                },
+                {
+                    "text": "Kennedy Space Center, Florida",
+                    "accept": true
+                },
+                {
+                    "text": "Ames Research Center, California",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What was Dr. Chang-Díaz instrumental in implementing?",
+            "responses": [
+                {
+                    "text": "New astronaut training programs",
+                    "accept": false
+                },
+                {
+                    "text": "Advanced spacecraft designs",
+                    "accept": false
+                },
+                {
+                    "text": "Closer ties between the astronaut corps and the scientific community",
+                    "accept": true
+                },
+                {
+                    "text": "New flight simulation technologies",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What were Dr. Chang-Díaz's duties as the leader of the astronaut support team?",
+            "responses": [
+                {
+                    "text": "Flight crew support during the launch countdown",
+                    "accept": true
+                },
+                {
+                    "text": "Mission control operations during space missions",
+                    "accept": false
+                },
+                {
+                    "text": "Payload development for space missions",
+                    "accept": false
+                },
+                {
+                    "text": "Rover operations on the Moon",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Which program did Dr. Chang-Díaz start in January 1987?",
+            "responses": [
+                {
+                    "text": "Astronaut Science Colloquium Program",
+                    "accept": true
+                },
+                {
+                    "text": "Kennedy Space Center Program",
+                    "accept": false
+                },
+                {
+                    "text": "Astronaut Training Program",
+                    "accept": false
+                },
+                {
+                    "text": "Space Exploration Program",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What is Adriana Ocampo's area of research?",
+            "responses": [
+                {
+                    "text": "Astrophysics",
+                    "accept": false
+                },
+                {
+                    "text": "Planetary geology",
+                    "accept": true
+                },
+                {
+                    "text": "Marine biology",
+                    "accept": false
+                },
+                {
+                    "text": "Quantum mechanics",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "How did Adriana Ocampo relate the sinkholes in the Yucatan peninsula to the Chicxulub impact?",
+            "responses": [
+                {
+                    "text": "They were caused by volcanic activity",
+                    "accept": false
+                },
+                {
+                    "text": "They formed due to erosion from a nearby river",
+                    "accept": false
+                },
+                {
+                    "text": "They provided evidence of a buried impact crater",
+                    "accept": true
+                },
+                {
+                    "text": "They were remnants of ancient glaciers",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What term did Adriana Ocampo use to describe the ring of sinkholes in the Yucatan peninsula?",
+            "responses": [
+                {
+                    "text": "Crevasses",
+                    "accept": false
+                },
+                {
+                    "text": "Abysses",
+                    "accept": false
+                },
+                {
+                    "text": "Cenotes",
+                    "accept": true
+                },
+                {
+                    "text": "Fissures",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What geological feature did Adriana Ocampo link to a buried impact crater?",
+            "responses": [
+                {
+                    "text": "Volcanic mountains",
+                    "accept": false
+                },
+                {
+                    "text": "Sinkholes",
+                    "accept": true
+                },
+                {
+                    "text": "Glacial valleys",
+                    "accept": false
+                },
+                {
+                    "text": "Coral reefs",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Where were the sinkholes, or 'cenotes,' discovered by Adriana Ocampo located?",
+            "responses": [
+                {
+                    "text": "Amazon Rainforest",
+                    "accept": false
+                },
+                {
+                    "text": "Sahara Desert",
+                    "accept": false
+                },
+                {
+                    "text": "Yucatan Peninsula",
+                    "accept": true
+                },
+                {
+                    "text": "Himalayan Mountains",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What geological feature did Adriana Ocampo identify in the Yucatan peninsula?",
+            "responses": [
+                {
+                    "text": "Volcanic vents",
+                    "accept": false
+                },
+                {
+                    "text": "Sinkholes",
+                    "accept": true
+                },
+                {
+                    "text": "Mountain ranges",
+                    "accept": false
+                },
+                {
+                    "text": "Glaciers",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "Which planets did Adriana Ocampo help to investigate?",
+            "responses": [
+                {
+                    "text": "Mars and Venus",
+                    "accept": false
+                },
+                {
+                    "text": "Neptune and Uranus",
+                    "accept": false
+                },
+                {
+                    "text": "Jupiter and Pluto",
+                    "accept": true
+                },
+                {
+                    "text": "Mercury and Mars",
+                    "accept": false
+                }
+            ]
+        },
+        {
+            "question": "What does Adriana Ocampo specialize in?",
+            "responses": [
+                {
+                    "text": "Asteroids and their impact craters",
+                    "accept": true
+                },
+                {
+                    "text": "Comets in space",
+                    "accept": false
+                },
+                {
+                    "text": "Planetary orbits",
+                    "accept": false
+                },
+                {
+                    "text": "Patterns in the asteroid belt",
+                    "accept": false
+                }
+            ]
+        }
+    ]
+}
