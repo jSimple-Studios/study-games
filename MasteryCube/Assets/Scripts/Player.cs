@@ -10,7 +10,7 @@ public class Player : NetworkBehaviour
     GameManager gm;
     [SyncVar] public string username;
     [SyncVar] [SerializeField] bool runningGame;
-    [SyncVar] int score;
+    [SyncVar] public int score;
     [SyncVar] int activeQID;
     [SyncVar] public TimeSpan time;
     void Start() {

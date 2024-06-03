@@ -90,9 +90,19 @@ public class GameManager : MonoBehaviour {
 
     void Update() {
         if (hostingOnly && runningGame) {
+            // stopwatch
             curTime += Time.deltaTime;
             time = TimeSpan.FromSeconds(curTime);
             svrinfotext.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+
+            // change score on list items
+            foreach (var item in playerList.GetComponentsInChildren<PlayerListItem>()) {
+                foreach (var player in players) {
+                    if (player.username == item.playerName.text) {
+                        item.playerScore.text = player.score.ToString();
+                    }
+                }
+            }
         }
     }
 
