@@ -19,5 +19,6 @@ public class Player : NetworkBehaviour
     [Command(requiresAuthority = false)] public void CmdRegisterNew(Player player, string username) {
         player.username = username;
         gm.players.Add(player);
+        gm.AddToList(username);
     }
 }

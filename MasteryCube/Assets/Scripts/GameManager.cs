@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour {
     public TMP_InputField playerName;
     [SerializeField] NetMan nm;
     public List<Player> players = new();
+    [SerializeField] GameObject playerList;
+
     int numQs;
 
     void Start() {
@@ -69,6 +71,7 @@ public class GameManager : MonoBehaviour {
     void Update() {
         if (hostingOnly) {
             serverCam.RotateAround(Vector3.zero, new Vector3(1,1,0), spinSpeed * Time.deltaTime);
+
         }
     }
 
@@ -85,8 +88,17 @@ public class GameManager : MonoBehaviour {
     }
 
     public void JoinServer() {
-        nm.networkAddress = serverIP.text;
-        nm.StartClient();
+        if (serverIP.text != "" && playerName.text != "") {
+            nm.networkAddress = serverIP.text;
+            nm.StartClient();
+            clientUI.SetActive(true);
+            titleUI.SetActive(false);
+        }
+    }
+
+    public void AddToList(string username) {
+        PlayerListItem newListing = Instantiate((PlayerListItem)Resources.Load("Prefabs/PlayerListItem"), playerList.transform);
+        newListing.playerName.text = username;
     }
 }
 
