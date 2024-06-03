@@ -9,6 +9,7 @@ public class CubeSegment : NetworkBehaviour {
     public CubeState state;
     public Material[] mats;
     Renderer rend;
+    public int id;
 
     void Start(){
         rend = GetComponentInChildren<Renderer>();

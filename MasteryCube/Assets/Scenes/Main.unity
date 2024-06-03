@@ -1006,6 +1006,10 @@ MonoBehaviour:
   nm: {fileID: 657717085}
   players: []
   playerList: {fileID: 896961607}
+  segs: []
+  activeQs: 
+  runningGame: 0
+  infotext: {fileID: 1046361001}
 --- !u!114 &443961350
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Mirror;
@@ -5,15 +6,23 @@ using UnityEngine;
 
 public class Player : NetworkBehaviour
 {
-    [SyncVar] public string username;
     GameManager gm;
+    [SyncVar] public string username;
+    [SyncVar] bool runningGame;
+    [SyncVar] int score;
+    [SyncVar] int activeQID;
+    [SyncVar] public TimeSpan time;
     void Start() {
         gm = FindObjectOfType<GameManager>();
         CmdRegisterNew(this, gm.playerName.text);
     }
 
     void Update() {
-
+        if (runningGame) {
+            // update timer
+            
+            // play pending anims
+        }
     }
 
     [Command(requiresAuthority = false)] public void CmdRegisterNew(Player player, string username) {
@@ -23,5 +32,25 @@ public class Player : NetworkBehaviour
         var newListing = (GameObject)Resources.Load("Prefabs/PlayerListItem");
         newListing.GetComponent<PlayerListItem>().playerName.text = username;
         Instantiate(newListing);
+    }
+
+    [ClientRpc] public void StartGame() {
+        runningGame = true;
+        StartCoroutine(EStartGame());
+    }
+
+    IEnumerator EStartGame() {
+        // request q from server
+        // lerp to q
+        // wait for player input
+        // send input to server
+        // update score based on correct or not
+        return null;
+    }
+
+    [ClientRpc] public void StopGame() {
+        runningGame = false;
+        // hide game ui and go to end screen
+        // show personal score
     }
 }

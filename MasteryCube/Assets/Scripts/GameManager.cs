@@ -22,7 +22,12 @@ public class GameManager : MonoBehaviour {
     [SerializeField] NetMan nm;
     public List<Player> players = new();
     public GameObject playerList;
-
+    public List<CubeSegment> segs;
+    public List<int> activeQs;
+    public bool runningGame;
+    public TMP_Text infotext;
+    TimeSpan time;
+    float curTime;
     int numQs;
 
     void Start() {
@@ -32,7 +37,6 @@ public class GameManager : MonoBehaviour {
         #region generate cube
         // div by 6 then sqrt, rounding up to the next whole number
         int qsPerCol = Mathf.CeilToInt(Mathf.Sqrt(numQs/6));
-        List<CubeSegment> segments = new();
         List<GameObject> sides = new();
         for (int i2 = 0; i2 < 6; i2++) {
             sides.Add(new GameObject());
@@ -43,7 +47,8 @@ public class GameManager : MonoBehaviour {
                     curseg.col = i;
                     curseg.row = i1;
                     curseg.SetPos();
-                    segments.Add(curseg);
+                    segs.Add(curseg);
+                    curseg.id = segs.IndexOf(curseg);
                 }
             }
             
@@ -81,6 +86,19 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    void Update() {
+        if (hostingOnly && runningGame) {
+            curTime += Time.deltaTime;
+            time = TimeSpan.FromSeconds(curTime);
+            foreach (var player in players) {
+                player.time = time;
+            }
+            infotext.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        } else {
+            infotext.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        }
+    }
+
     public void SetSpinSpeed(Slider slider) {
         spinSpeed = slider.value;
     }
@@ -99,6 +117,13 @@ public class GameManager : MonoBehaviour {
             nm.StartClient();
             clientUI.SetActive(true);
             titleUI.SetActive(false);
+        }
+    }
+
+    public void StartGame() {
+        runningGame = true;
+        foreach (var player in players) {
+            player.StartGame();
         }
     }
 }
