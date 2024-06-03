@@ -96,7 +96,7 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    public void AddToList(string username) {
+    [Server] public void AddToList(string username) {
         PlayerListItem newListing = Instantiate((PlayerListItem)Resources.Load("Prefabs/PlayerListItem"), playerList.transform);
         newListing.playerName.text = username;
     }
