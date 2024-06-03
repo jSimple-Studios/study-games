@@ -84,16 +84,14 @@ public class GameManager : NetworkBehaviour {
         nm.StartServer();
     }
 
-    public void JoinServer() {StartCoroutine(EJoinServer());}
-    IEnumerator EJoinServer() {
+    public void JoinServer() {
         nm.networkAddress = serverIP.text;
         nm.StartClient();
-        yield return null;
     }
 
-    [Command] public void CmdRegisterNew(Player player, string username) {
-        players.Add(player);
+    [Command(requiresAuthority = false)] public void CmdRegisterNew(Player player, string username) {
         player.username = username;
+        players.Add(player);
     }
 }
 

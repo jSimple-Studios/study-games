@@ -9,9 +9,7 @@ public class Player : NetworkBehaviour
     GameManager gm;
     void Start() {
         gm = FindObjectOfType<GameManager>();
-        if (isLocalPlayer) {
-            gm.CmdRegisterNew(this, gm.playerName.text);
-        }
+        gm.CmdRegisterNew(this, gm.playerName.text);
     }
 
     void Update() {
