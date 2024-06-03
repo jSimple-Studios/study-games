@@ -20,7 +20,7 @@ public class Player : NetworkBehaviour
         // all refs to gm here are on server only, doesnt propagate to clients
         player.username = username;
         gm.players.Add(player);
-        PlayerListItem newListing = Instantiate((PlayerListItem)Resources.Load("Prefabs/PlayerListItem"), gm.playerList.transform);
-        newListing.playerName.text = username;
+        // PlayerListItem newListing = Instantiate((PlayerListItem)Resources.Load("Prefabs/PlayerListItem"), gm.playerList.transform);
+        // newListing.playerName.text = username;
     }
 }
