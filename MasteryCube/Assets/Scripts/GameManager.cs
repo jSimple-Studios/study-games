@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour {
             for (int i = 0; i < players.Count; i++) {
                 if (players[i] == null) {
                     foreach (var item in playerList.GetComponentsInChildren<PlayerListItem>())
-                        if (item.playerName.text == players[i].username) Destroy(gameObject);
+                        if (item.playerName.text == players[i].username) Destroy(item.gameObject);
                     players.RemoveAt(i);
                 }
             }
