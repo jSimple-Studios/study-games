@@ -68,10 +68,16 @@ public class GameManager : MonoBehaviour {
 
     }
 
-    void Update() {
+    void FixedUpdate() {
         if (hostingOnly) {
             serverCam.RotateAround(Vector3.zero, new Vector3(1,1,0), spinSpeed * Time.deltaTime);
-
+            for (int i = 0; i < players.Count; i++) {
+                if (players[i] == null) {
+                    foreach (var item in playerList.GetComponentsInChildren<PlayerListItem>())
+                        if (item.playerName.text == players[i].username) Destroy(gameObject);
+                    players.RemoveAt(i);
+                }
+            }
         }
     }
 
