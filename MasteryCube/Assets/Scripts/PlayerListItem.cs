@@ -7,6 +7,6 @@ public class PlayerListItem : MonoBehaviour {
     public TMP_Text playerName;
     public TMP_Text playerScore;
     void Start() {
-        transform.parent = FindObjectOfType<GameManager>().playerList.transform;
+        transform.SetParent(FindObjectOfType<GameManager>().playerList.transform);
     }
 }
