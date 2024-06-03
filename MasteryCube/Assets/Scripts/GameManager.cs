@@ -26,7 +26,8 @@ public class GameManager : MonoBehaviour {
     public List<int> activeQs;
     public bool runningGame;
     public TMP_Text infotext;
-    TimeSpan time;
+    public TMP_Text svrinfotext;
+    public TimeSpan time;
     float curTime;
     int numQs;
 
@@ -93,7 +94,7 @@ public class GameManager : MonoBehaviour {
             foreach (var player in players) {
                 player.time = time;
             }
-            infotext.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+            svrinfotext.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
         } else {
             infotext.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
         }
@@ -125,6 +126,8 @@ public class GameManager : MonoBehaviour {
         foreach (var player in players) {
             player.StartGame();
         }
+        titleUI.SetActive(false);
+        serverUI.SetActive(true);
     }
 }
 

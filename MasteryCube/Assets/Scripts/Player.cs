@@ -20,6 +20,7 @@ public class Player : NetworkBehaviour
     void Update() {
         if (runningGame) {
             // update timer
+            gm.time = time;
             
             // play pending anims
         }
