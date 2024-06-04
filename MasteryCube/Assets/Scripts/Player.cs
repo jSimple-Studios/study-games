@@ -46,14 +46,17 @@ public class Player : NetworkBehaviour
     IEnumerator MainLoop() {
         while (runningGame) {
             // request q from server
+            print ("getting qid");
             GetQid();
             // lerp to cube seg
+            print ("lerping to seg");
             for (float i = 0; i < 1.2f; i += Time.deltaTime) {
                 cam.position = Vector3.Lerp(cam.position, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.position, 2f * Time.deltaTime);
                 cam.rotation = Quaternion.Slerp(cam.rotation, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.rotation, 2f * Time.deltaTime);
             }
             // wait for player input
             // qui = Instantiate((GameObject)Resources.Load("Prefabs/QuestionUI")).GetComponent<QuestionUI>();
+            print ("waiting for inputs");
             qui = gm.qui;
             qui.gameObject.SetActive(true);
             int respID = qui.AskQuestion(activeQID);
