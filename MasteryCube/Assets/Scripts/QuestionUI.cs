@@ -16,6 +16,8 @@ public class QuestionUI : MonoBehaviour {
         // load vals
         // gameObject.SetActive(true);
         Question question = FindObjectOfType<GameManager>().set.set[qid];
+        print(question);
+        print(qid);
         selectedBtn = -1;
         qTXT.text = question.question;
         for (int i = 0; i < ansBTNs.Length; i++) {
