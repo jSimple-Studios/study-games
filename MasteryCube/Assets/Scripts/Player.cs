@@ -52,6 +52,7 @@ public class Player : NetworkBehaviour
                 cam.rotation = Quaternion.Slerp(cam.rotation, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.rotation, 2f * Time.deltaTime);
             }
             // wait for player input
+            gm.qui.gameObject.SetActive(true);
             int respID = gm.qui.AskQuestion(activeQID);
             // send input to server
             
