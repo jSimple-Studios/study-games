@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using Mirror;
-using Org.BouncyCastle.Crypto.Macs;
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -27,7 +23,9 @@ public class QuestionUI : MonoBehaviour {
         ansBTNs[3].GetComponentInChildren<TMP_Text>().text = question.responses[3].text;
 
         // wait for answer
-        while (selectedBtn == -1) {}
+        while (selectedBtn == -1) {
+            Task.Delay(100);
+        }
 
         // end
         return selectedBtn;
