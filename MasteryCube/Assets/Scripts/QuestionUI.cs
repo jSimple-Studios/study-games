@@ -12,9 +12,9 @@ public class QuestionUI : MonoBehaviour {
     public Button[] ansBTNs;
     int selectedBtn = -1;
 
-    [Client] public int AskQuestion(int qid) {
+    public int AskQuestion(int qid) {
         // load vals
-        gameObject.SetActive(true);
+        // gameObject.SetActive(true);
         Question question = FindObjectOfType<GameManager>().set.set[qid];
         selectedBtn = -1;
         qTXT.text = question.question;

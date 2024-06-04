@@ -42,7 +42,7 @@ public class Player : NetworkBehaviour
         StartCoroutine(MainLoop());
     }
 
-    [Client] IEnumerator MainLoop() {
+    IEnumerator MainLoop() {
         while (runningGame) {
             // request q from server
             GetQid();
@@ -52,7 +52,7 @@ public class Player : NetworkBehaviour
                 cam.rotation = Quaternion.Slerp(cam.rotation, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.rotation, 2f * Time.deltaTime);
             }
             // wait for player input
-            // gm.qui.gameObject.SetActive(true);
+            gm.qui.gameObject.SetActive(true);
             int respID = gm.qui.AskQuestion(activeQID);
             // send input to server
             
