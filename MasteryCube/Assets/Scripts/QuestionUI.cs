@@ -21,9 +21,11 @@ public class QuestionUI : MonoBehaviour {
         print(qid);
         selectedBtn = -1;
         qTXT.text = question.question;
-        for (int i = 0; i < ansBTNs.Length; i++) {
-            ansBTNs[i].GetComponentInChildren<TMP_Text>().text = question.responses[i].text;
-        }
+        ansBTNs[0].GetComponentInChildren<TMP_Text>().text = question.responses[0].text;
+        ansBTNs[1].GetComponentInChildren<TMP_Text>().text = question.responses[1].text;
+        ansBTNs[2].GetComponentInChildren<TMP_Text>().text = question.responses[2].text;
+        ansBTNs[3].GetComponentInChildren<TMP_Text>().text = question.responses[3].text;
+
 
         // wait for answer
         while (selectedBtn == -1) {}
