@@ -53,7 +53,8 @@ public class Player : NetworkBehaviour
                 cam.rotation = Quaternion.Slerp(cam.rotation, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.rotation, 2f * Time.deltaTime);
             }
             // wait for player input
-            qui = Instantiate((GameObject)Resources.Load("Prefabs/QuestionUI")).GetComponent<QuestionUI>();
+            // qui = Instantiate((GameObject)Resources.Load("Prefabs/QuestionUI")).GetComponent<QuestionUI>();
+            qui = gm.qui;
             qui.gameObject.SetActive(true);
             int respID = qui.AskQuestion(activeQID);
             qui.gameObject.SetActive(false);
