@@ -13,6 +13,7 @@ public class QuestionUI : MonoBehaviour {
 
     public int AskQuestion(int qid) {
         // load vals
+        gameObject.SetActive(true);
         Question question = FindObjectOfType<GameManager>().set.set[qid];
         selectedBtn = -1;
         qTXT.text = question.question;

@@ -3584,10 +3584,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 343277759}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -25}
-  m_SizeDelta: {x: 800, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1046361001
 MonoBehaviour:
@@ -3609,9 +3609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Time elapsed: 00:00
-
-    Score: 00'
+  m_text: Waiting for host...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 02c24b0636f7a5640a99a903319a5cef, type: 2}
   m_sharedMaterial: {fileID: -8246153924020038239, guid: 02c24b0636f7a5640a99a903319a5cef, type: 2}
@@ -3646,7 +3644,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
