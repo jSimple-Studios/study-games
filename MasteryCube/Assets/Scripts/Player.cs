@@ -48,10 +48,10 @@ public class Player : NetworkBehaviour
             // request q from server
             GetQid();
             // lerp to cube seg
-            for (float i = 0; i < 1.2f; i += Time.deltaTime) {
-                cam.position = Vector3.Lerp(cam.position, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.position, 2f * Time.deltaTime);
-                cam.rotation = Quaternion.Slerp(cam.rotation, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.rotation, 2f * Time.deltaTime);
-            }
+            // for (float i = 0; i < 1.2f; i += Time.deltaTime) {
+            //     cam.position = Vector3.Lerp(cam.position, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.position, 2f * Time.deltaTime);
+            //     cam.rotation = Quaternion.Slerp(cam.rotation, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.rotation, 2f * Time.deltaTime);
+            // }
             // wait for player input
             qui = Instantiate((GameObject)Resources.Load("Prefabs/QuestionUI")).GetComponent<QuestionUI>();
             qui.gameObject.SetActive(true);
