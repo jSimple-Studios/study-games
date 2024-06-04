@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Mirror;
 using TMPro;
 using Unity.VisualScripting;
@@ -25,10 +26,12 @@ public class GameManager : MonoBehaviour {
     public GameObject playerList;
     public List<CubeSegment> segs;
     public List<int> activeQs;
+    public List<int> finishedQs;
     public bool runningGame;
     public TMP_Text infotext;
     public TMP_Text svrinfotext;
     public TimeSpan time;
+    public QuestionUI qui;
     float curTime;
     int numQs;
 
@@ -134,6 +137,19 @@ public class GameManager : MonoBehaviour {
         }
         titleUI.SetActive(false);
         serverUI.SetActive(true);
+    }
+
+    public int ReqQuestion() {
+        // give the player a question that isn't already completed or being used
+        int _id = -1;
+        bool _ready = false;
+        while (_id != -1 && !_ready) {
+            _id = UnityEngine.Random.Range(0, set.set.Length);
+            if (!activeQs.Contains(_id) && !finishedQs.Contains(_id))
+                _ready = true;
+        }
+
+        return _id;
     }
 }
 

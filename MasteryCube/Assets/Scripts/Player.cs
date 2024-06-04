@@ -1,9 +1,7 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using Mirror;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class Player : NetworkBehaviour
 {
@@ -13,9 +11,11 @@ public class Player : NetworkBehaviour
     [SyncVar] public int score;
     [SyncVar] int activeQID;
     [SyncVar] public TimeSpan time;
+    Transform cam;
     void Start() {
         gm = FindObjectOfType<GameManager>();
         CmdRegisterNew(this, gm.playerName.text);
+        cam = FindObjectOfType<Camera>().transform;
     }
 
     void Update() {
@@ -39,16 +39,31 @@ public class Player : NetworkBehaviour
 
     [ClientRpc] public void StartGame() {
         runningGame = true;
-        // StartCoroutine(EStartGame());
+        StartCoroutine(MainLoop());
     }
 
-    IEnumerator EStartGame() {
-        // request q from server
-        // lerp to q
-        // wait for player input
-        // send input to server
-        // update score based on correct or not
+    IEnumerator MainLoop() {
+        while (runningGame) {
+            // request q from server
+            GetQid();
+            // lerp to cube seg
+            for (float i = 0; i < 1.2f; i += Time.deltaTime) {
+                cam.position = Vector3.Lerp(cam.position, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.position, 2f * Time.deltaTime);
+                cam.rotation = Quaternion.Slerp(cam.rotation, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.rotation, 2f * Time.deltaTime);
+            }
+            // wait for player input
+            int respID = gm.qui.AskQuestion(activeQID);
+            // send input to server
+            
+            // update score based on correct or not
+
+        }
         return null;
+    }
+
+    [Command(requiresAuthority = false)] void GetQid() {
+        // runs this on the server's version of gm
+        activeQID = gm.ReqQuestion();
     }
 
     [ClientRpc] public void StopGame() {
