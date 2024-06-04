@@ -56,6 +56,7 @@ public class Player : NetworkBehaviour
             qui = Instantiate((GameObject)Resources.Load("Prefabs/QuestionUI")).GetComponent<QuestionUI>();
             qui.gameObject.SetActive(true);
             int respID = qui.AskQuestion(activeQID);
+            qui.gameObject.SetActive(false);
             // send input to server
             
             // update score based on correct or not

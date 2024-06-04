@@ -26,12 +26,10 @@ public class QuestionUI : MonoBehaviour {
         ansBTNs[2].GetComponentInChildren<TMP_Text>().text = question.responses[2].text;
         ansBTNs[3].GetComponentInChildren<TMP_Text>().text = question.responses[3].text;
 
-
         // wait for answer
         while (selectedBtn == -1) {}
 
         // end
-        gameObject.SetActive(false);
         return selectedBtn;
     }
 
