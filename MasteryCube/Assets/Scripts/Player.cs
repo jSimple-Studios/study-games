@@ -12,6 +12,7 @@ public class Player : NetworkBehaviour
     [SyncVar] int activeQID;
     [SyncVar] public TimeSpan time;
     Transform cam;
+    QuestionUI qui;
     void Start() {
         gm = FindObjectOfType<GameManager>();
         CmdRegisterNew(this, gm.playerName.text);
@@ -52,8 +53,9 @@ public class Player : NetworkBehaviour
                 cam.rotation = Quaternion.Slerp(cam.rotation, gm.segs[activeQID].GetComponentInChildren<AudioSource>().transform.rotation, 2f * Time.deltaTime);
             }
             // wait for player input
-            gm.qui.gameObject.SetActive(true);
-            int respID = gm.qui.AskQuestion(activeQID);
+            qui = Instantiate((GameObject)Resources.Load("Prefabs/QuestionUI")).GetComponent<QuestionUI>();
+            qui.gameObject.SetActive(true);
+            int respID = qui.AskQuestion(activeQID);
             // send input to server
             
             // update score based on correct or not
