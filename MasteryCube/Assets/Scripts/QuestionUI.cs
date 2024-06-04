@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Mirror;
 using Org.BouncyCastle.Crypto.Macs;
 using TMPro;
 using UnityEngine;
@@ -11,7 +12,7 @@ public class QuestionUI : MonoBehaviour {
     public Button[] ansBTNs;
     int selectedBtn = -1;
 
-    public int AskQuestion(int qid) {
+    [Client] public int AskQuestion(int qid) {
         // load vals
         gameObject.SetActive(true);
         Question question = FindObjectOfType<GameManager>().set.set[qid];
