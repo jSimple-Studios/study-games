@@ -42,7 +42,7 @@ public class Player : NetworkBehaviour
         StartCoroutine(MainLoop());
     }
 
-    IEnumerator MainLoop() {
+    [Client] IEnumerator MainLoop() {
         while (runningGame) {
             // request q from server
             GetQid();
